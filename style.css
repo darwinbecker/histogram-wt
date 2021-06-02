@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: auto !important;
+    padding: 20px;
+    text-align: center;
+}
+
+#upperBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imageWrapper{
+    padding: 10px;
+    flex: 0 1 150px;
+}
+
+#histogramWrapper{
+    display: none;
+    padding: 10px;
+}
+
+#navBar {
+    display: none;
+    margin: auto 0;
+    padding: 30px 30px;
+    flex: 0 1 150px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+#binWidthBar{
+    width: 200px;
+    min-height: 40px;
+    vertical-align: middle;
+}
+
+#bin_width{
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#restoreBar{
+    margin: auto;
+    margin-bottom: 0;
+    width: 200px;
+    min-height: 40px;
+    vertical-align: middle;
+}
+
+#image{
+    border-radius: 15px;
+}
+
+#brightnessLabel{
+    margin: 0;
+}
